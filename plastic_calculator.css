@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/**************************General**************************/
+body{background-image: url(https://cdn.gstic.org/wp-content/uploads/2020/06/gstic-blog-marine-plastics-pollution.jpg);
+background-size:cover; background-repeat: no-repeat;background-attachment: fixed; position: relative;}
+header h1 {margin: auto;padding-top: 10px;padding-bottom: 10px;}
+h2 {margin-bottom: 5px;}
+body {overflow-x: hidden;}
+main {width: 80ch;margin: auto;}
+section {background-color:#ffffffbf;padding: 10px;border-radius: 10px;padding-bottom: 0px;margin-bottom: 0px;}
+
+/*---Tables---*/
+table {border-top: 2px solid black; border-bottom: 2px solid black; border-collapse:collapse; ; margin: auto;}
+td{border-bottom: 1px solid black; padding: 6px;}
+
+/*---Footer---*/
+footer{padding-top: 1.5em;padding-bottom: 1.5em;color:black;}
+
+/*^^^^^^Fonts, font sizes and font styles & font colors^^^^^*/
+h1{text-align: center;text-transform: uppercase;font-family: 'Nunito', sans-serif;font-size: 2.5em;color: white;letter-spacing: 0.1em;text-shadow:
+    0 0 2px rgba(204, 208, 212,0.9),
+    0 15px 25px rgba(0, 0, 0, 0.3),
+    0 -2px 3px rgba(0, 0, 0, 0.1),
+    0 -5px 10px rgba(255, 255, 255, 0.5),
+    0 5px 10px rgba(0, 0, 0, 0.3),
+    0 3px 4px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.45);
+}
+main {font-family:'EB Garamond', serif;padding-top: 5px;}
+h2,h3{font-family: 'Bree Serif', serif;}
+p {font-size: 1.2em; text-align: center;}
+a {text-decoration: none;color: #ffffff;}
+footer {font-family: Darker Grotesque, sans-serif; font-weight:bold;font-size:large;text-align: center;bottom: 0px;}
+
+/************************** Specific **************************/
+#sec_result {border-bottom:2px dotted blue}
+#sec_result p:first-of-type {background-color: rgb(39 95 137 / 37%); display:block;}
+p.tip {background-color: rgb(39 95 137 / 37%);}
+
+
+@media screen and (max-width:800px){
+/*--Page layout,margin,padding,border--*/
+ header {margin: 0px;padding: 0px;border: 0px;}
+header h1{padding-top: 20%;padding-bottom: 20%; }
+main{width: auto;padding: 3px;}
+}
+
+
+
+
+
